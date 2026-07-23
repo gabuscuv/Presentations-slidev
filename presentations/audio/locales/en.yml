@@ -1,0 +1,120 @@
+meta:
+  title: "Game Audio Design Using Middlewares"
+  author: "Gaby Bustillo del Cuvillo"
+
+slides:
+  cover:
+    heading: "Game Audio Design Using Middlewares"
+    subtitle: "Game Audio Design for Videogames Using Middlewares"
+    presenter: ""
+
+  what_isnt_this_talk:
+    heading: "What this talk is NOT"
+    note: "I just want to play audio:"
+    options:
+      - "Use the integrated solution (Unreal MetaSounds, Godot/Unity Audio)"
+      - "Use Audio Frameworks:"
+      - "Mozilla CubeB"
+      - "libsoundio"
+      - "SDL"
+      - "OpenAL"
+      - "FAudio"
+      - "Or write your own backend:"
+      - "WinMM"
+      - "WASAPI"
+      - "PulseAudio / PipeWire"
+      - "Core Audio"
+      - "AudioUnit"
+      - "AAudio"
+
+  tip: "Ignore ASIO or JACK unless you truly need low latency (e.g., Rocksmith)."
+
+  resources:
+    heading: "Resources Empowering the Sound Designer"
+    items:
+      - "A way to abstract audio design away from programming"
+      - "A way for the sound designer to be directly involved without intermediaries"
+      - "Independence to control filters and effects at runtime"
+      - "Engine independence (Unreal, Unity, Godot, or custom)"
+
+  popular_middlewares:
+    heading: "Most Popular Middlewares"
+    wwise:
+      free: "Free up to $250K"
+      paid: "After that, from $8K"
+    fmod:
+      free: "Free up to $200K"
+      paid: "License from $2K"
+
+  experience:
+    heading: "My Experience"
+
+  operation_modes:
+    heading: "Operation Modes"
+    items:
+      - "Standard track with parameter stimulation"
+      - "Infinite"
+      - "Finite"
+      - "Demo"
+      - "Trigger/SFX tracks (Actions in FMOD)"
+      - "Multilanguage tracks / StringTable"
+      - "Next slide"
+
+  videos:
+    online: "Online Video"
+    local: "Local Video"
+    note: "All these actions can be positional (3D) or flat (2D)."
+
+  stringtable:
+    heading: "StringTable"
+    bullets:
+      - "Localized text"
+      - "Callbacks"
+      - "Simple integration"
+
+  typical_integration:
+    heading: "Typical Integration"
+    unity_heading: "Unity (Official)"
+    godot_heading: "Godot (fmod-gdextension)"
+
+  unreal_integration:
+    heading: "Unreal Integration"
+
+  filters_effects:
+    heading: "Sound Filters/Effects Matter"
+    description: "Sound filters/effects matter"
+    examples:
+      - "Dynamically reduce frequencies based on parameters"
+      - "Change the pitch of an individual track/layer"
+
+  volume_control:
+    heading: "Volume Control / VCA"
+
+  workflow_recommendations_1:
+    heading: "Workflow Recommendations (1)"
+    description: "Use Excel tables to match naming, audio type, parameters, etc."
+
+  workflow_recommendations_2:
+    heading: "Personal Workflow Recommendations (2)"
+    items:
+      - "Use abstractions for SFX (agnostic of AudioMiddleware or engine)"
+      - "Especially for placeholder cases or fast middleware changes"
+      - "In Unreal + FMOD, in case object references are lost (should be fine; other integrations use strings)"
+
+  workflow_recommendations_3:
+    heading: "Personal Workflow Recommendations (3)"
+    items:
+      - "Experience working with Wwise"
+      - "Be aware that you can only download/install the plugin from the Wwise launcher, tied to a version"
+      - "Make a backup after generating it"
+
+  people_work_recommendations_4:
+    heading: "Recommendations for Working With People (4)"
+    items:
+      - "Delete symbol files (.sym/.pdb) when transferring between teammates"
+      - "Or compress them"
+
+  closing:
+    heading: "That's all."
+    contact_label: "Contact website:"
+    linkedin_label: "LinkedIn:"

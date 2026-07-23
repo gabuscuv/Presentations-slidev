@@ -9,9 +9,8 @@ const texts = useTranslation(() => props.k)
 
 </script>
 
-<template>
-  
-  <div v-click v-for="(text, index) in texts">
+<template>  
+  <div v-for="(text, index) in texts">
     {{ text }}
   </div>
 </template>

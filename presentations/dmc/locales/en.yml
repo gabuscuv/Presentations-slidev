@@ -1,0 +1,138 @@
+en:
+  domesticMotionCapture:
+    title: "Domestic Motion Capture (Remastered)"
+    author: "Gaby Bustillo del Cuvillo"
+    originalDate: "2023/12/15"
+  
+    history:
+      title: "History of Domestic Tracking"
+      kinect: "Kinect 360 OpenNI (+MMD Community)"
+      vtubers: "VTubers Hits (Kizuna Ai)"
+      hololive: "Virtual Streamers Boom (Hololive)"
+  
+    types:
+      title: "Types of Motion Capture"
+      dof6: "6DoF Based"
+      dof6_pros: "The most precise, reliable"
+      dof6_cons: "Most expensive; occlusion issues"
+      imu: "IMU Based"
+      imu_desc: "Uses accelerometers, gyroscopes, and sometimes magnetometers with AI/guess algorithms"
+      imu_pros: "Cheaper, easy to set up, no visual occlusion"
+      imu_cons: "Based on guesses; can fail"
+      visual: "Visual Computation Based"
+      visual_pros: "Cheapest or home-made"
+      visual_cons: "Unreliable long-term; limited capabilities"
+  
+    examples6dof:
+      title: "6DoF Examples"
+      controllers: "Any VR Controller"
+      controllers_pros: "Cheap because you already have it"
+      lighthouse: "Lighthouse dedicated devices (Vive Trackers / Tundra Trackers)"
+      lighthouse_pros: "Probably the most advanced IMU solutions"
+      lighthouse_cons: "Expensive initial setup if you don’t own Vive/Index"
+      ultimate: "Vive Trackers Ultimate"
+      ultimate_pros: "Cheaper than lighthouse setup; no fixed place required"
+      ultimate_cons: "Not OpenXR/PC compatible at launch; funky recovery"
+  
+    examples3dof:
+      title: "3DoF Examples"
+      mocopi: "Mocopi (Sony)"
+      mocopi_pros: "Continuous/worldwide production"
+      mocopi_cons: "Mobile-only; slow for realtime VR"
+      slime: "SlimeVR"
+      slime_pros: "Advanced IMU; cheap; open source"
+      slime_cons: "Preorder only"
+      owo: "owoTrackVR (SlimeVR Clone)"
+      owo_pros: "Free (use Android phones)"
+      owo_cons: "Requires 3 lightweight phones + straps"
+      haitora: "HaitoraX"
+      haitora_pros: "Only need to charge a battery"
+      haitora_cons: "Too many wires?"
+  
+    visualExamples:
+      title: "Visual Computation Examples"
+      mocap4all: "Mocap4All"
+      mocap4all_pros: "You need a bunch of cameras"
+      mocap4all_cons: "Machine learning; hit or miss"
+      amethyst: "Amethyst"
+      amethyst_pros: "Cheap and reliable"
+      april: "April Tags"
+      april_pros: "Cheap"
+      april_cons: "Unreliable"
+  
+    table:
+      title: "Comparison Table"
+  
+    software:
+      title: "On the Software-Side"
+      weird: "It’s quite weird"
+      weird_desc: 
+        - "There are many protocols, from VR APIs (OpenVR/OpenXR) to communication protocols (OSC/VMC) and proprietary formats (e.g. Mocopi BVH)."
+        - "Support varies widely across devices and protocols."
+        - "Unreal Engine natively supports Vive Trackers as camera or mesh tracking points."
+        - "Unity also supports humanoid tracking (as far as I understand)."
+        - "There are many possible workflows, but today I'll focus on my own."
+  
+    vmc:
+      title: "Virtual Motion Capture - sh_akira"
+      steamvr: "Uses SteamVR API"
+      osc: "Supports external OSC and exports OSC via VMCP"
+      mocopi: "Supports Mocopi"
+      lip: "Supports Vive Lip Tracking"
+      eye: "Supports Vive/Tobii eye tracking"
+      unity: "Unity plugin (VMC4U)"
+      unreal: "Unreal plugin (EVMC4UE)"
+      opensource: "Open Source"
+  
+    vmcConnectivity:
+      title: "VMC Interconnectivity"
+  
+    osc:
+      title1: "OSC or VMCP (1)"
+      title2: "OSC or VMCP (2)"
+    
+    funfact:
+      funfact_title: "Also, did you know OSC stands for"
+      funfact: "Open Sound Control?"
+      funfact_desc: 
+      - "Interestingly, much of the Japanese body tracking ecosystem relies on OSC (Open Sound Control), despite it originally being designed for audio communication."
+      - "Given its lightweight message format and low latency, it's actually a good fit for real-time tracking data."
+      - "(At least, that's my best guess.)"
+  
+    face:
+      title: "FaceTracking"
+      vive: "Use Vive FaceTracker + eye-tracking HMD"
+      vive_cons: "Expensive"
+      livelink: "Use LiveLink Face"
+      livelink_pros: "Free; uses ARKit/FaceID"
+      livelink_cons: "Requires iOS + Unreal"
+      ifacial: "iFacialMocap (ARKit)"
+      ifacial_pros: "Uses VMC protocol"
+      meowface: "Camera Android Tracking (MeowFace)"
+      meowface_pros: "Uses VMC protocol"
+  
+    hands:
+      title: "HandTracking"
+      opengloves: "OpenGloves"
+      opengloves_pros: "Open Source"
+      opengloves_cons: "DIY; no commercial product; And requires additional 6DoF Tracking"
+      quest: "Quest 3/2 Hand Tracking"
+      quest_pros: "Included with Quest"
+      quest_cons: "Visual occlusion for 360"
+      knuckles: "Valve Index Controller (Knuckles)"
+      leap: "LeapMotion (Probably dead)"
+  
+    ragdolls:
+      title: "Ragdolls"
+  
+    workflow:
+      title: "My workflow"
+      hi: "Hi"
+  
+    results:
+      title: "Results"
+      title2: "Results 2 (Old Build)"
+  
+    closing:
+      title: "Closing"
+  

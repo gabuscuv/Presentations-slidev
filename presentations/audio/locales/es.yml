@@ -1,0 +1,108 @@
+es:
+  meta:
+    title: "Game Audio Design Using Middlewares"
+    author: "Gaby Bustillo del Cuvillo"
+  slides:
+    cover:
+      heading: "Game Audio Design Using Middlewares"
+      subtitle: "Diseño de Audio para Videojuegos usando Middlewares"
+      presenter: ""
+    what_isnt_this_talk:
+      heading: "Qué no es esta charla"
+      integrated: 
+        heading: "Solo quiero lanzar audio:"
+        options: "Usa la solución integrada (Unreal MetaSounds, Godot/Unity Audio)"
+      audioframeworks:
+        heading: "Usa Audio Frameworks:"
+        options:
+        - "Mozilla CubeB"
+        - "libsoundio"
+        - "SDL"
+        - "OpenAL"
+        - "FAudio"
+      ownBackend:
+        heading: "O escribe tu propio backend:"
+        options:
+        - "WinMM"
+        - "WASAPI"
+        - "PulseAudio / PipeWire"
+        - "Core Audio"
+        - "AudioUnit"
+        - "AAudio"
+    tip: "Ignora ASIO o JACK salvo que realmente necesites baja latencia (ej. Rocksmith)."
+    resources:
+      heading: "Recursos al poder del Sound Designer"
+      items:
+        - "Forma de abstraer diseño de audio de la programación"
+        - "Y una forma de que pueda involucrarse directamente en el proyecto sin intermediarios."
+        - "Independencia de control de filtros y efectos en runtime."
+        - "Independencia de motor (Unreal, Unity, Godot o Custom)"
+    popular_middlewares:
+      heading: "Los Middleware más populares"
+      wwise:
+        free: "Gratis hasta $250K"
+        paid: "Después desde $8K"
+      fmod:
+        free: "Gratis hasta $200K"
+        paid: "Licencia desde $2K"
+    experience:
+      heading: "Mi experiencia"
+    operation_modes:
+      heading: "Modos de Operación"
+      items:
+        - "Pista Standard con estimulación por parámetros"
+        - "Infinita"
+        - "Finita"
+        - "Demo"
+        - "Pistas Trigger/SFX (Actions en FMOD)"
+        - "Pistas Multilenguaje / StringTable"
+        - "Siguiente diapositiva"
+    videos:
+      online: "Video Online"
+      local: "Video Local"
+      note: "Todas estas acciones pueden ser posicionales (3D) o planas (2D)."
+    stringtable:
+      heading: "StringTable"
+      bullets:
+        - "Texto localizado"
+        - "Callbacks"
+        - "Integración sencilla"
+    typical_integration:
+      heading: "Típica Integración"
+      unity_heading: "Unity (Oficial)"
+      godot_heading: "Godot (fmod-gdextension)"
+    unreal_integration:
+      heading: "Integracion Unreal"
+    filters_effects:
+      heading: "Los filtros/efectos de sonido importan"
+      description: "Los filtros/efectos de sonido importan"
+      examples:
+        - "Reducir frecuencias dinámicamente según parámetros"
+        - "Cambiar el tono de una pista/layer individual"
+    volume_control:
+      heading: "Control de Volumen / VCA"
+    workflow_recommendations_1:
+      heading: "Recomendaciones de Workflow (1)"
+      description: "Usar tablas de Excel para concordar nombramiento, tipo de audio, parámetros, etc."
+    workflow_recommendations_2:
+      heading: "Recomendaciones personales de Workflow (2)"
+      items:
+        - "Usar abstracciones para SFX. (Agnosticos del AudioMiddleware o motor)"
+        - "Especialmente para casos de placeholder, cambio de Middleware rapidos"
+        - "En caso de Unreal + FMOD, por si se pierde referencia a los objectos. (Deberia estar ok, el caso de otras integraciones a ser strings)"
+    workflow_recommendations_3:
+      heading: "Recomendaciones personales de Workflow (3)"
+      items:
+        - "Experiencia trabajando con Wwise"
+        - "Conciencia de que solo se puede descargar/instalar el plugin desde su propio launcher Wwise al quedar fijado a una version. (olvidaros de git submodule o Unity Store)"
+        - "Hacer Backup tras generarlo"
+    people_work_recommendations_4:
+      heading: "Recomendaciones de trabajar con Gente (4)"
+      items:
+        - "Borrar ficheros de símbolos (.sym/.pdb) para transferir entre compañeros."
+        - "O comprimirlo"
+    closing:
+      heading: "Esto es todo."
+      contact_label: "Web de contacto:"
+      linkedin_label: "LinkedIn:"
+

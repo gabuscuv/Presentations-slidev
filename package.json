@@ -1,0 +1,28 @@
+{
+  "name": "slidev-multideck",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "list": "node scripts/build.js list",
+    "dev": "node scripts/build.js dev",
+    "build": "node scripts/build.js build",
+    "build:all": "node scripts/build.js build --all",
+    "preview": "node scripts/build.js preview",
+    "export": "node scripts/build.js export"
+  },
+  "dependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "@rollup/plugin-yaml": "^4.0.0",
+    "vue": "^3.5.26",
+    "vue-i18n": "^11.4.6",
+    "vite": "^8.1.4"
+  },
+  "devDependencies": {
+    "@slidev/types": "latest",
+    "@types/node": "^20.4.2",
+    "gray-matter": "^4.0.3",
+    "glob": "^11.0.0"
+  }
+}

@@ -79,8 +79,8 @@ The choice of the microcontroller determine the limits of the complexity the gam
 
 ### Integrated MicroControllers Manufacturer:
 <img src="./img/IntegratedMicroControllers/M5Stack-PAPER.webp" class="h-80 inline top-20 absolute right-3" />
-<img src="./img/IntegratedMicroControllers/1.85inch-touch-lcd-module-3.jpg" class="h-30 inline absolute top-43 left-140" />
-<img src="./img/IntegratedMicroControllers/T-Embed-K167-LILYGO_11.webp" class="h-40 top-50 inline absolute left-100" />
+<img src="./img/IntegratedMicroControllers/1.85inch-touch-lcd-module-3.jpg" class="h-30 inline absolute top-43 left-130" />
+<img src="./img/IntegratedMicroControllers/T-Embed-K167-LILYGO_11.webp" class="h-40 top-50 inline absolute left-80" />
 <img src="./img/IntegratedMicroControllers/T-DECK-PLUS_6.jpg" class="h-50 top-90 inline absolute right-90" />
 
 - Waveshare 
@@ -116,16 +116,22 @@ The choice of the microcontroller determine the limits of the complexity the gam
 - Standalone
   - Tamagochi
   - Nintendo Game & Watch (Sharp SM510, NEC uCom-43)
+  <div class="top-35 ml-10 absolute left-50 flex inline ">
+  <img class="h-15" src="./img/gadgets/Game-and-watch-ball.png" />
+    <img class="h-15 ml-10" src="./img/gadgets/Tamagotchi.jpg" />
+  </div>  
   
-  <img class="h-20 absolute top-40 right-35 inline" src="./img/gadgets/Game-and-watch-ball.png" />
-  <img class="h-60 absolute right-20 inline" src="./img/gadgets/so-what-exactly-is-the-tingle-tuner-for-v0-555lc7q5cgue1.webp" />
+  <img class="h-60 absolute right-20 bottom-0 inline"  src="./img/gadgets/gba-gcn.webp" />
+ <!-- https://www.youtube.com/watch?v=Rwp9Mqwu8zs -->
+  <img  class="h-30 inline absolute top-43 right-40"   src="./img/gadgets/vmu-dreamcast.png" />
+  <img class="h-30 absolute bottom-10 right-70 inline" src="./img/gadgets/PSP-PS3.jpg" />
+
 - Companion Device
-  - GBA (with GameCube Mode) - Dumb Terminals
-    - Windwaker 
+  - GBA (with GameCube Mode) - Dumb Terminals 
+  - PSP (With PS3) - Resistance Retribution
   - VMU (Dreamcast)
   - PokeWalker
 - Accessories
-  - PSP (connected with PS3)
   - Guitar Hero Controller
 
 ---
@@ -133,6 +139,8 @@ The choice of the microcontroller determine the limits of the complexity the gam
 ###
 
 ## Game Design applied to MicroControllers (2)
+
+
 
 ---
 

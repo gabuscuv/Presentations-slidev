@@ -13,9 +13,40 @@ mdc: true
 
 ---
 
+## Why Microcontrollers?
+
+<Youtube id="fMQwZRW1wng" class="h-full w-full" />
+
+---
+
+### Okay, I didn't understood a shit, Could You explain in human terms
+
+## Introduction to the MicroControllers
+
+- A Microcontroller is a All in one Solution that includes low-power Processor, memory and storage in a small package
+- It's thought mainly for repetitive, specific tasks:
+  - Example:
+    - Microwaves
+      - Control the Input, Internal Clock, the Timer.
+    - Smart Thermostats
+    - Pedemeters
+    - Clocks
+
+(Nowadays are quite popular for Internet of things)
+
+
+---
+
 ## What is a Tamagochi?
 
-- It's a virtual pet launched by 90's
+- It's a gadget launched by 90's by Bandai <img class="inline h-70 absolute right-40" src="./img/gadgets/Tamagotchi.jpg" />
+- It's about take care of a alien creature
+- It uses RealTime Clock for produce different states 
+  - Hungry
+  - Happiness
+  - Traning
+  - Sickness
+- Also has a Life Cycle system making age.
 
 ---
 
@@ -39,23 +70,6 @@ mdc: true
 </div>
 <img v-after src="./img/natalie-talk.png" class="h-30 inline relative " />
 </div>
----
-
-### Okay, I didn't understood a shit, Could You explain in human terms
-
-## Introduction to the MicroControllers
-
-- A Microcontroller is a All in one Solution that includes low-power Processor, memory and storage in a small package
-- It's thought mainly for repetitive, specific tasks:
-  - Example:
-    - Microwaves
-      - Control the Input, Internal Clock, the Timer.
-    - Smart Thermostats
-    - Pedemeters
-    - Clocks
-
-(Nowadays are quite popular for Internet of things)
-
 ---
 
 ## What's the options If I want to make a Tamagochi right now
@@ -160,14 +174,27 @@ The choice of the microcontroller determine the limits of the complexity the gam
 </div>
 ---
 
-### Castanets ESP32-S3
+### Castanets ESP32
 
-## Examples (II)
+## Use Case 2a (Accessories)
 
-- A Controller
-  - Networking: 360 × 360 pixels (262K colors)
-  - Touch Panel: Capacitive touch controlled via I2C
-  - 
+- A Controller <img src="./img/MicroControllers/EspressIf-ESP32-S3-DevKitC-N8R8.jpg" class="inline absolute left-110 h-30" />
+  - EspressIf ESP32-S3 (Xtensa) N8R8
+  - Connectability: ESP-NOW, USB-Serial
+
+<div class="inline left-100 absolute flex"> 
+  <img src="./img/MicroControllers/seeed-studio-xiao-esp32-c3.png" class="h-20" /> 
+  <img src="./img/MicroControllers/seeed-studio-xiao-esp32-c6.jpg" class="h-22" />
+</div>
+
+- Satellites 
+  - ESP32-C3 & ESP32-C6 (RISC-V) 
+  
+  - Connectability: ESP-NOW
+  - GPIO <img src="./img/Controller/Piezo_LM797.jpg" class="inline h-50" />
+    - (for Piezo)
+
+
   
 <div class="absolute top-30 right-10">
 
@@ -183,7 +210,65 @@ flowchart TD
 
 ---
 
-## Use Case 2b (Accessory)
+## Use Case 2b (Accessories)
+
 ### Mercacompra 2030
+
 https://geri8.itch.io/mercacompra2030
+
 ---
+
+## Use Case 3a (Companion Devices)
+
+### Treasure-Search/Radar Cooperative Game
+
+<div class="w-100 h-50 flex">
+  <img src="./img/MicroControllers/EspressIf-ESP32-S3-DevKitC-N8R8.jpg" class="" />
+  <img src="./img/IntegratedMicroControllers/1.85inch-touch-lcd-module-3.jpg"  />
+  <img src="./img/frameworks/Raylib_logo.png" />
+</div>
+
+
+---
+
+## Use Case 3b (Companion Devices)
+
+### Cooperative Game
+
+<div class="w-100 h-50 flex">
+  <img src="./img/MicroControllers/EspressIf-ESP32-S3-DevKitC-N8R8.jpg" class="" />
+  <img src="./img/IntegratedMicroControllers/1.85inch-touch-lcd-module-3.jpg"  />
+  <img src="./img/frameworks/Raylib_logo.png" />
+  <img class="p-1" src="./img/games/KeepTalkingNoBodyExplodes.jpg" />
+</div>
+
+---
+
+## Can I Use A Microcontroller as a Tamagotchi...
+
+### Of course
+
+<img class="h-100 items-center" src="./img/misc/Tamagotchi.png" />
+
+---
+src: ../../slides/closing/questions.md
+---
+
+---
+src: ../../slides/closing/thank-you.md
+---
+
+---
+layout: image
+background: ./img/CGD_bg.jpg
+image: ./img/CGD_bg.jpg
+---
+
+# One more thing
+
+## Proxima Meetup
+
+- [Jose Escribano](https://www.mobygames.com/person/567289/jose-antonio-escribano-ayllon/) Vuelve
+- [Rubus / @KaruArts](https://www.artstation.com/karuarts) Saca nuevo Juego 
+  - Charla: "Porqué siempre debes hacer caso a esa vocecilla de tu cabeza y comprobar que el trademark esté libre en vez de fiarte del resto del equipo para evitar problemas legales que te impidan sacar el puto que lleva hecho un par de meses porque un cryptobro mamahuevos te da problemas"
+- [Una Posibilidad](https://www.mobygames.com/person/909352/alejo-silos-leal/)

@@ -1,0 +1,87 @@
+en:
+  slides:
+    cover:
+      heading: "Tamagotchis, Companion Devices & Castanets"
+      subtitle: "Introducction to MicroControllers"
+      presenter: ""
+  microcontrollers:
+    why: "Why Microcontrollers?"
+    explanationQuestion: "Okay, I didn't understand a shit. Could you explain in human terms?"
+    introduction: "Introduction to Microcontrollers"
+    definition: "A microcontroller is an all-in-one solution that includes a low-power processor, memory and storage in a small package"
+    specificTasks: "It's mainly designed for repetitive, specific tasks"
+    examples: "Examples"
+    microwaves: "Microwaves"
+    microwaveControls: "Control the input, internal clock and timer"
+    smartThermostats: "Smart Thermostats"
+    pedemeters: "Pedometers"
+    clocks: "Clocks"
+    iot: "Nowadays, they are quite popular for the Internet of Things"
+    currentOptions: "What are the options if I want to make a Tamagotchi right now?"
+    optionsComment: "Of course, nowadays you can still buy microcontrollers that are way more powerful than the original Tamagotchis' microcontrollers.\n\nThe Tamagotchi ones are known as integrated microcontrollers (the microcontroller + other stuff).\n\nThe choice of microcontroller determines the limits of the game's complexity."
+    oldschool: "Old-school"
+    integrated: "Integrated"
+
+  tamagotchi:
+    whatIs: "What is a Tamagotchi?"
+    bandai: "It's a gadget launched in the 90s by Bandai"
+    care: "It's about taking care of an alien creature"
+    realTimeClock: "It uses a Real-Time Clock to produce different states"
+    hungry: "Hungry"
+    happiness: "Happiness"
+    training: "Training"
+    sickness: "Sickness"
+    lifeCycle: "It also has a life-cycle system that makes it age"
+    hardwareJoke: "Okay Watson, I think everybody knows what's..."
+    hardwareTitle: "What's Actually the Tamagotchi Hardware?"
+    microcontroller: "A Microcontroller"
+    earlyModels: "Early ones"
+    lateModels: "Late ones"
+    lcd: "LCD Display"
+    buttons: "Three-Button Layout"
+    speaker: "Speaker"
+    ir: "IR (Since Tamagotchi Collection)"
+    natalieReference: "For more information about these: Natalie Silvanovich, \"Even More Tamagotchis Were Harmed in the Making of the Presentation\""
+    canUseMicrocontroller: "Can I Use a Microcontroller as a Tamagotchi..."
+    ofCourse: "Of course"
+
+  languages:
+    supported: "Language Supported"
+    programming: "Programming Languages Supported"
+    graphicsLibraries: "Graphics Library Standards"
+
+  gameDesign:
+    whatCanIDo: "Cool, what kind of games can I make with these thingies?"
+    microcontroller: "Game Design Applied to Microcontrollers (1)"
+    standalone: "Standalone"
+    companionDevice: "Companion Device"
+    accessories: "Accessories"
+    rhythmAccessories: "Rhythm Accessories"
+
+  badassGotchi:
+    display: "Display"
+    pixels: "pixels"
+    colors: "colors"
+    touchPanel: "Touch Panel"
+    audio: "Onboard audio decoding chip with built-in microphone and speaker support"
+
+  castanets:
+    controller: "A Controller"
+    connectivity: "Connectivity"
+    satellites: "Satellites"
+
+  useCases:
+    accessories2a: "Use Case 2a (Accessories)"
+    accessories2b: "Use Case 2b (Accessories)"
+    companion3a: "Use Case 3a (Companion Devices)"
+    companion3b: "Use Case 3b (Companion Devices)"
+    treasureRadar: "Treasure-Search/Radar Cooperative Game"
+    cooperativeGame: "Cooperative Game"
+
+  closing:
+    oneMoreThing: "One more thing"
+    proximaMeetup: "Proxima Meetup"
+    joseReturns: "Returns"
+    rubusNewGame: "Releases a new game"
+    rubusTalk: "Talk: \"Why you should always listen to that little voice in your head and check that the trademark is available instead of trusting the rest of the team, to avoid legal problems that prevent you from releasing the fucking game you've been working on for a couple of months because some crypto-bro asshole gives you trouble\""
+

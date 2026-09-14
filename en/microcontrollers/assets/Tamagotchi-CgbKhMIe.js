@@ -1,0 +1,1 @@
+var e=`/microcontrollers/assets/Tamagotchi-wdxOhX3D.jpg`;export{e as t};

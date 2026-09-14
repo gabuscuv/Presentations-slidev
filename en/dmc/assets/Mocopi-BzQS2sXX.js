@@ -1,0 +1,1 @@
+var e=`/dmc/assets/Mocopi-DMo7ZOxe.webp`;export{e as t};

@@ -1,0 +1,1 @@
+import{g as e,ht as t}from"./modules/shiki-DVgIF6xE.js";import{o as n}from"./modules/vue-BGu4DNmF.js";function r(r){let{t:i,tm:a}=n();return e(()=>{let e=t(r)?.trim(),n=e?i(e):``;return n==e?a(e):[n]})}export{r as t};

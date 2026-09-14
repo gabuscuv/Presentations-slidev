@@ -1,9 +1,8 @@
 ---
 theme: ../../theme
-title: Getting Started with Slidev Multideck
-description: Learn how to use this multi-presentation template
-date: 2025-01-01
-tags: [tutorial, slidev, template]
+title: Game Audio Design Using Middlewares
+description: Game Audio Design for Videogames Using Middlewares
+date: 2025-07-06
 listed: true
 transition: slide-left
 mdc: true

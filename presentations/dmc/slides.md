@@ -1,6 +1,7 @@
 ---
 transition: fade
-description: hi
+title: Domestic Motion Capture (Remastered)
+date: 2026-12-15
 author: Gaby Bustillo del Cuvillo
 paginate: true
 ---

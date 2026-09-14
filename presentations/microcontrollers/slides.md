@@ -1,9 +1,8 @@
 ---
 theme: ../../theme
-title: "<T k='deck.title' />"
-description: "<T k='deck.description' />"
-date: 2025-01-01
-tags: [tutorial, slidev, template]
+title: "Tamagotchis, Companion Devices & Castanets"
+description: "Introduction to MicroControllers"
+date: 2026-09-14
 listed: true
 transition: slide-left
 mdc: true

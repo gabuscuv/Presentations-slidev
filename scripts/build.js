@@ -35,6 +35,10 @@ const extensions = [
   {
     base: join('setup', 'main.base.ts'),
     target: join('setup', 'main.ts'),
+  },
+  {
+    base: join('setup', 'mermaid.base.ts'),
+    target: join('setup', 'mermaid.ts'),
   }
 ];
 

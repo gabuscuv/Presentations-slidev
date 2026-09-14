@@ -1,0 +1,88 @@
+es:
+  slides:
+    cover:
+      heading: "Tamagotchis, Dispositivos acompañantes y Catañuelas"
+      subtitle: "Introduccion a los MicroControladores"
+      presenter: ""
+  microcontrollers:
+    why: "¿Por qué microcontroladores?"
+    explanationQuestion: "Vale, no he entendido una mierda. ¿Puedes explicarlo en términos humanos?"
+    introduction: "Introducción a los microcontroladores"
+    definition: "Un microcontrolador es una solución todo en uno que incluye un procesador de bajo consumo, memoria y almacenamiento en un pequeño encapsulado"
+    specificTasks: "Está pensado principalmente para tareas repetitivas y específicas:"
+    examples: "Ejemplos:"
+    microwaves: "Microondas"
+    microwaveControls: "Controlar la entrada, el reloj interno y el temporizador"
+    smartThermostats: "Termostatos inteligentes"
+    pedemeters: "Podómetros"
+    clocks: "Relojes"
+    iot: "Hoy en día son bastante populares para el Internet de las Cosas"
+    currentOptions: "¿Qué opciones tengo si quiero hacer un Tamagotchi ahora mismo?"
+    optionsComment: "Por supuesto, hoy en día todavía puedes comprar microcontroladores muchísimo más potentes que los microcontroladores originales de los Tamagotchis.\n\nLos de los Tamagotchis se conocen como microcontroladores integrados (el microcontrolador + el resto de componentes).\n\nLa elección del microcontrolador determina los límites de la complejidad que puede tener el juego."
+    oldschool: "A la vieja Escuela"
+    integrated: "Integrados"
+
+  tamagotchi:
+    whatIs: "¿Qué es un Tamagotchi?"
+    bandai: "Es un gadget lanzado en los años 90 por Bandai"
+    care: "Consiste en cuidar de una criatura alienígena"
+    realTimeClock: "Utiliza un reloj de tiempo real para producir diferentes estados"
+    hungry: "Hambre"
+    happiness: "Felicidad"
+    training: "Entrenamiento"
+    sickness: "Enfermedad"
+    lifeCycle: "También tiene un sistema de ciclo vital que hace que envejezca"
+    hardwareJoke: "Vale, Watson, creo que todo el mundo sabe qué es..."
+    hardwareTitle: "¿Cuál es realmente el hardware de un Tamagotchi?"
+    microcontroller: "Un microcontrolador"
+    earlyModels: "Los primeros"
+    lateModels: "Los últimos"
+    lcd: "Pantalla LCD"
+    buttons: "Tres botones"
+    speaker: "Altavoz"
+    ir: "IR (desde Tamagotchi Collection)"
+    natalieReference: "Para más información: Natalie Silvanovich, \"Even More Tamagotchis Were Harmed in the Making of the Presentation\""
+    canUseMicrocontroller: "¿Puedo usar un microcontrolador como Tamagotchi...?"
+    ofCourse: "Por supuesto"
+
+  languages:
+    supported: "Lenguajes soportados"
+    programming: "Lenguajes de programación soportados"
+    graphicsLibraries: "Estándares de librerías gráficas"
+
+  gameDesign:
+    whatCanIDo: "Vale, ¿qué tipo de juegos puedo hacer con estas cosas?"
+    microcontroller: "Diseño de juegos aplicado a microcontroladores (1)"
+    standalone: "Independientes"
+    companionDevice: "Dispositivo complementario"
+    accessories: "Accesorios"
+    rhythmAccessories: "Accesorios de ritmo"
+
+  badassGotchi:
+    display: "Pantalla"
+    pixels: "píxeles"
+    colors: "colores"
+    touchPanel: "Panel táctil"
+    audio: "Chip de decodificación de audio integrado con soporte para micrófono y altavoz"
+
+  castanets:
+    controller: "Un controlador"
+    connectivity: "Conectividad"
+    satellites: "Satélites"
+
+  useCases:
+    accessories1: "Caso de uso 1 (Independientes)"
+    accessories2a: "Caso de uso 2a (Accesorios)"
+    accessories2b: "Caso de uso 2b (Accesorios)"
+    companion3a: "Caso de uso 3a (Dispositivos complementarios)"
+    companion3b: "Caso de uso 3b (Dispositivos complementarios)"
+    treasureRadar: "Juego cooperativo de búsqueda del tesoro / radar"
+    cooperativeGame: "Juego cooperativo"
+
+  closing:
+    oneMoreThing: "Una cosa más"
+    proximaMeetup: "Próximo Meetup"
+    joseReturns: "Vuelve"
+    rubusNewGame: "Saca un juego nuevo"
+    rubusTalk: "Charla: \"Por qué siempre debes hacer caso a esa vocecilla de tu cabeza y comprobar que el trademark esté libre en vez de fiarte del resto del equipo para evitar problemas legales que te impidan sacar el puto juego que llevas haciendo un par de meses porque un cryptobro mamahuevos te da problemas\""
+

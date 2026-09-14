@@ -1,1 +1,1 @@
-var e=`/dmc/assets/Mocopi-DMo7ZOxe.webp`;export{e as t};
+var e=`/Presentations-slidev/es/dmc/assets/Mocopi-DMo7ZOxe.webp`;export{e as t};

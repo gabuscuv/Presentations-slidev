@@ -1,1 +1,1 @@
-var e=`/dmc/assets/tundratracker-DAJKTQx_.png`;export{e as t};
+var e=`/Presentations-slidev/en/dmc/assets/tundratracker-DAJKTQx_.png`;export{e as t};

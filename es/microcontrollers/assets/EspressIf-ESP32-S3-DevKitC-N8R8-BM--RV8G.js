@@ -1,1 +1,1 @@
-var e=`/microcontrollers/assets/EspressIf-ESP32-S3-DevKitC-N8R8-qBmlvHaK.jpg`;export{e as t};
+var e=`/Presentations-slidev/es/microcontrollers/assets/EspressIf-ESP32-S3-DevKitC-N8R8-qBmlvHaK.jpg`;export{e as t};

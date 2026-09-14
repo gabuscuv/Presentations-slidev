@@ -1,1 +1,1 @@
-var e=`/microcontrollers/assets/1.85inch-touch-lcd-module-3-BTwHey2K.jpg`;export{e as t};
+var e=`/Presentations-slidev/en/microcontrollers/assets/1.85inch-touch-lcd-module-3-BTwHey2K.jpg`;export{e as t};

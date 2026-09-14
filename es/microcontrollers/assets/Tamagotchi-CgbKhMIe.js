@@ -1,1 +1,1 @@
-var e=`/microcontrollers/assets/Tamagotchi-wdxOhX3D.jpg`;export{e as t};
+var e=`/Presentations-slidev/es/microcontrollers/assets/Tamagotchi-wdxOhX3D.jpg`;export{e as t};

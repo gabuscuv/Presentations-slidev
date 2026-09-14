@@ -1,1 +1,1 @@
-var e=`/dmc/assets/Xbox-360-Kinect-Standalone-BgdcLW2w.png`;export{e as t};
+var e=`/Presentations-slidev/en/dmc/assets/Xbox-360-Kinect-Standalone-BgdcLW2w.png`;export{e as t};

@@ -1,0 +1,1 @@
+import{ft as e,p as t}from"./modules/shiki-BcawbB3Q.js";import{o as n}from"./modules/vue-u_OnXVwb.js";function r(r){let{t:i,tm:a}=n();return t(()=>{let t=e(r)?.trim(),n=t?i(t):``;return n==t?a(t):[n]})}export{r as t};

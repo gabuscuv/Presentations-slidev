@@ -1,0 +1,1 @@
+var e=`/Presentations-slidev/es/dmc/assets/VMCP_LOGO-CL9pyAeV.png`;export{e as t};
